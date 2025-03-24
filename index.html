@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FORM “Reserve a box”</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="wrapper G-center">
+
+    <section class='form-section G-center'>
+
+        <form action="" class="form-box" id="contactForm">
+            <h2 class="form-title">Fill in the form and we will contact you</h2>
+
+            <div class="form-cnt">
+                <div class="form-select-box">
+                    <div class="select-titles G-align-center">
+                        <span>65*250*430 mm</span>
+                        <i class="icon icon-arrow-down"></i>
+                    </div>
+                    <div class="select-cnt">
+                        <div class="select-option">50*200*400 mm</div>
+                        <div class="select-option">70*300*500 mm</div>
+                        <div class="select-option">100*400*600 mm</div>
+                    </div>
+                </div>
+
+                <div class="form-select-box">
+                    <div class="select-titles G-align-center">
+                        <span>3 months</span>
+                        <i class="icon icon-arrow-down"></i>
+                    </div>
+                    <div class="select-cnt">
+                        <div class="select-option">1 month</div>
+                        <div class="select-option">6 months</div>
+                        <div class="select-option">12 months</div>
+                    </div>
+                </div>
+
+                <div class="form-input-box">
+                    <label class="form-input-label">
+                        <input type="text" id="name" placeholder="Name*">
+                        <span class="error-msg" id="nameError">Name must be at least 3 characters.</span>
+                    </label>
+                </div>
+
+                <div class="form-input-box">
+                    <label class="form-input-label">
+                        <input type="text" id="phone" placeholder="Phone*">
+                        <span class="error-msg" id="phoneError">Phone number is required and must be valid.</span>
+
+                    </label>
+                </div>
+
+                <div class="form-input-box">
+                    <label class="form-input-label">
+                        <input type="email" id="email" placeholder="E-mail*">
+                        <span class="error-msg" id="emailError">Enter a valid email.</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-btn-box G-align-center">
+                <button type="submit" class="form-btn-send">Send</button>
+                <button type="submit" class="form-btn-arrow G-center">
+                    <i class="icon icon-arrow-send"></i>
+                </button>
+            </div>
+
+            <div class="privacy-policy  G-align-center">
+                <div class="privacy-icon G-center">
+                    <i class="icon icon-check"></i>
+                </div>
+                <p class="privacy-text">I agree to <span>Privacy Policy</span></p>
+            </div>
+
+            <div class="close">
+                <i class="icon icon-close"></i>
+            </div>
+        </form>
+    </section>
+
+</div>
+
+
+<script src="assets/js/index.js"></script>
+</body>
+
+
+</html>

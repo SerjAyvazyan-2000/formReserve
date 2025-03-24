@@ -1,0 +1,61 @@
+
+:root {
+    --gray: rgba(169, 169, 169, 1);
+    --gray2: rgba(193, 193, 193, 1);
+    --gray3: rgba(94, 94, 94, 1);
+    --gray4: rgba(144, 144, 144, 1);
+
+
+    --white: rgba(243, 239, 235, 1);
+    --white2: rgba(252, 252, 252, 1);
+
+
+    --black: rgba(35, 35, 35, 1);
+
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.container {
+    max-width: 1228px;
+    margin: 0 auto;
+    padding: 0 14px;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+}
+
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 992px) {
+
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 400px) {
+
+
+}
